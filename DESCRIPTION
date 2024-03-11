@@ -1,15 +1,24 @@
-Package: peersonwheelsstudy
-Title: What the Package Does (One Line, Title Case)
+Package: study.pow
+Title: A peer-led mobile model to enhance access to hepatitis C point-of-care testing and treatment - The Peers on Wheels (POW) Study
 Version: 0.0.0.9000
-Authors@R:
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+Authors@R: 
+    person(given = "MJ",
+           family = "Stowe",
+           role = c("aut", "cre"),
+           email = "mjstowe@kirby.unsw.edu.au")
+Description: This repository contains the research compendium of the partial 
+    reproduction of A peer-led mobile model to enhance access to hepatitis C point-of-care testing and treatment - The Peers on Wheels (POW) Study. The compendium 
+    contains all data, code, and text associated with this sub-section of the 
+    analysis.
 License: MIT + file LICENSE
 ByteCompile: true
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
-Imports: here
+RoxygenNote: 7.1.1
+Imports: bookdown,
+    here
 Suggests: devtools,
     git2r
+URL: https://github.com/mx-jx/study.pow
+BugReports: https://github.com/mx-jx/study.pow/issues
